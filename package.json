@@ -1,0 +1,32 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajwrdhn/qlaym.git"
+  },
+  "keywords": [
+    "qlaym"
+  ],
+  "author": "rajwardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajwrdhn/qlaym/issues"
+  },
+  "homepage": "https://github.com/rajwrdhn/qlaym#readme",
+  "dependencies": {
+    "binary-extensions": "^1.12.0",
+    "canvasjs": "^1.8.1",
+    "chart.js": "^2.7.3",
+    "csv-parser": "^2.1.0",
+    "ethereumjs-wallet": "^0.6.2",
+    "express": "^4.16.4",
+    "jsdom": "^13.0.0",
+    "truffle-hdwallet-provider": "0.0.6"
+  }
+}

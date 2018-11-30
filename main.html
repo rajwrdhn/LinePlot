@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Line Plot</title>
+    <script type=”text/babel” src="node_modules/csv-parser/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script type=”text/babel” src="setValue.js"></script>
+    <script type=”text/babel” src="readplpotcsv.js"></script>
+    <script type=”text/babel” src="deployGraph.js"></script>
+</head>
+
+<body>
+    <div>
+        <center>
+            <h1>Graph Plotting!</h1>
+            <input type="text" name="name the variable to plot" id="variable_plot">
+            <br>
+            <button type="submit" onclick="readplpotcsv.js">click to plot graph!</button>
+        </center>
+    </div>
+    <div class="box">
+        <canvas id="lineChart" height="300" width="1000"></canvas>
+    </div>
+</body>
+
+</html>
